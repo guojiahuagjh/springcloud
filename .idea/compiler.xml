@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="product-data-service" />
+        <module name="product-view-service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="product-data-service" target="1.8" />
+      <module name="product-view-service-feign" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
