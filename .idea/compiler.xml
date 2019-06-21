@@ -8,15 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="hystrix-dashboard" />
         <module name="product-data-service" />
         <module name="product-view-service-feign" />
+        <module name="productServiceTurbine" />
+        <module name="productServiceZuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="product-data-service" target="1.8" />
       <module name="product-view-service-feign" target="1.8" />
+      <module name="productServiceTurbine" target="1.8" />
+      <module name="productServiceZuul" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
